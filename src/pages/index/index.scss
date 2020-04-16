@@ -1,0 +1,309 @@
+/* pages/loginIndex/loginIndex.wxss */
+
+.container {
+    width: 750rpx;
+    height: 100vh;
+    min-height: 1206rpx;
+    background: #f5f5f5;
+  }
+  
+  .login_btn {
+    position: absolute;
+    width: 750rpx;
+    height: 92vh;
+    left: 0;
+    top: 0;
+    background: transparent;
+    z-index: 40;
+  }
+  
+  .top {
+    width: 750rpx;
+    height: 408rpx;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/banner_bg.png') no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20rpx;
+  }
+  
+  .login_content {
+    margin-top: 90rpx;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .user_content {
+    margin-top: 16rpx;
+    width: 100%;
+    height: 62vh;
+    min-height: 750rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .input_outer {
+    position: relative;
+    width: 550rpx;
+    height: 80rpx;
+    background-color: #fff;
+    box-shadow: 1rpx 4rpx 15rpx 0rpx rgba(192, 192, 192, 0.3);
+    border-radius: 40rpx;
+    border: solid 1rpx #ccc;
+    color: #333;
+    font-size: 28rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sales_name {
+    font-size: 24rpx;
+    color: #333;
+    text-align: center;
+  }
+  
+  .slect_outer {
+    width: 350rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24rpx;
+    color: #333;
+  }
+  
+  .icon_select {
+    width: 30rpx;
+    height: 30rpx;
+    border: 1rpx solid #333;
+    border-radius: 8rpx;
+  }
+  
+  .icon_select.active {
+    border: 1rpx solid #db2721;
+    background: #db2721;
+  }
+  
+  .go_rule {
+    color: #db2721;
+  }
+  
+  .input_left {
+    text-align: right;
+    height: 39rpx;
+    border-right: 1rpx solid #cdcdcd;
+    width: 196rpx;
+    padding-right: 29rpx;
+  }
+  
+  .swiper_ward {
+    width: 690rpx;
+    height: 100rpx;
+    background-image: linear-gradient(0deg, #f8f8f8 0%, #fff 100%), linear-gradient(#fff, #fff);
+    background-blend-mode: normal, normal;
+    box-shadow: 1rpx 7rpx 29rpx 0rpx rgba(192, 192, 192, 0.3),
+                  inset 0rpx -18rpx 84rpx 0rpx rgba(248, 248, 248, 0.4);
+    border-radius: 50rpx;
+    border: solid 4rpx #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .voice {
+    width: 64rpx;
+    height: 64rpx;
+  }
+  
+  .swiper_ward_inner {
+    width: 590rpx;
+    height: 64rpx;
+    padding-left: 9rpx;
+  }
+  
+  .msg_new {
+    width: 126rpx;
+    height: 126rpx;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/icon_msg.png') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  .order_new {
+    position: relative;
+    width: 126rpx;
+    height: 126rpx;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/icon_zhang.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .header {
+    width: 79rpx;
+    height: 79rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5rpx;
+  }
+  
+  .user_nike {
+    /* margin-left: 0 !important; */
+    width: 79rpx;
+    height: 79rpx;
+    line-height: 79rpx;
+    /* border-radius: 50%; */
+  }
+  .header_img{
+    width: 200rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .user_info {
+    margin-top: 10rpx;
+  }
+  
+  .user_info, .user_grade {
+    width: 690rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user_grade {
+    width: 750rpx;
+    position: relative;
+    top: -20rpx;
+  }
+  
+  /* .user_nike {
+    margin-left: 10rpx;
+    font-size: 32rpx;
+    color: #333;
+  } */
+  
+  .user_header, .user_info_new {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .new_num {
+    position: absolute;
+    top: 10rpx;
+    right: 10rpx;
+    /* padding: 10rpx; */
+    width: 35rpx;
+    height: 35rpx;
+    background: #e82822;
+    box-shadow: 1rpx 4rpx 3rpx 0rpx rgba(192, 192, 192, 0.56);
+    border: solid 2rpx #fff;
+    font-size: 22rpx;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30rpx;
+    color: #fff;
+  }
+  
+  .grade_list {
+    padding: 50rpx;
+    width: 374rpx;
+    height: 292rpx;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/icon_sales1.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .go_sales {
+    width: 661rpx;
+    height: 215rpx;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/btn_red.png?v=0') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: -30rpx;
+  }
+  
+  .swiper-item {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .name {
+    font-size: 24rpx;
+    color: #333;
+    /* white-space: nowrap; */
+  }
+  
+  .name1 {
+    font-size: 24rpx;
+    color: #333;
+  }
+  
+  .date {
+    line-height: 42rpx;
+    font-size: 20rpx;
+    color: #b3b3b3;
+  }
+  
+  .line_fir {
+    font-size: 24rpx;
+    color: #999;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/icon_eye.png') no-repeat;
+    background-size: 25rpx 16rpx;
+    background-position: 85% center;
+  }
+  
+  .line_two {
+    line-height: 60rpx;
+    letter-spacing: 1rpx;
+    color: #e82822;
+    font-size: 54rpx;
+    margin: 10rpx 0 20rpx 0;
+  }
+  
+  .line_tir {
+    font-size: 24rpx;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 42rpx;
+    letter-spacing: 0rpx;
+    color: #999;
+    width: 320rpx;
+    overflow: hidden;
+  }
+  
+  .login {
+    width: 544rpx;
+    height: 165rpx;
+    line-height: 145rpx;
+    background: url('https://d-salesimg.yili.com/miniprogram/images/index/icon_btn.png?v=0') no-repeat;
+    background-size: 100% 100%;
+    font-size: 32rpx;
+    color: #fff;
+  }
+  
+  .input {
+    font-size: 28rpx;
+    color: #ccc;
+  }
+  
+  .activity_get_mobile {
+    z-index: 10;
+    position: absolute;
+    width: 100rpx;
+    height: 100rpx;
+    opacity: 0;
+    left: 0;
+    top: 0;
+  }
+  
+  .mobile {
+    width: 173px;
+  }
+  
+  .phone {
+    color: #333;
+  }
+  

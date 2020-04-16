@@ -1,0 +1,50 @@
+.redPackets {
+  position: absolute;
+  // top: -700rpx;
+  .packet {
+    position: absolute;
+    z-index: 500;
+    opacity: 1;
+    // animation:dropdown linear infinite;
+  }
+}
+@keyframes dropdown {
+  0% {
+    opacity: 1;
+    top: -60px;
+  }
+  100% {
+    top: 2500rpx;
+    opacity: 0;
+  }
+}
+@-moz-keyframes dropdown {
+  0% {
+    opacity: 1;
+    top: -60px;
+  }
+  100% {
+    top: 2500rpx;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes dropdown {
+  0% {
+    opacity: 1;
+    top: -60px;
+  }
+  100% {
+    top: 2500rpx;
+    opacity: 0;
+  }
+}
+@-o-keyframes dropdown {
+  0% {
+    opacity: 1;
+    top: -60px;
+  }
+  100% {
+    top: 2500rpx;
+    opacity: 0;
+  }
+}
